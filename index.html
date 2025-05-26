@@ -3,7 +3,10 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         <link rel="stylesheet" href="./src/styles/styles.css" />
+        <script src="./src/scripts/script.js" defer></script>
+
         <title>Kindred</title>
     </head>
     <body>
@@ -17,6 +20,7 @@
                 <li class="item-nav"><a href="#galeria">Galeria</a></li>
                 <li class="item-nav"><a href="#contos">Contos</a></li>
             </ul>
+            <button class="btn-hamburger" aria-label="Abrir menu">☰</button>
         </nav>
         <header id="inicio">
             <div class="hero">
@@ -147,102 +151,126 @@
                 <h2 class="subtitle">Curiosidades</h2>
                 <ul>
                     <li class="curiosidade">
-                        <h3>A Dualidade da morte: Lab e Wolf</h3>
-                        <p>
-                            Kindred é composto por duas entidades distintas:
-                            Lamb (a Ovelha) e Wolf (o Lobo). Lamb representa uma
-                            morte pacífica, oferecendo um fim rápido e indolor
-                            com suas flechas para aqueles que aceitam seu
-                            destino. Já Wolf personifica uma morte violenta,
-                            perseguindo e devorando os que tentam fugir do fim
-                            inevitável. Essa dualidade reflete as escolhas que
-                            os mortais enfrentam diante da morte, tornando
-                            Kindred uma representação única do conceito de
-                            mortalidade em Runeterra.
-                        </p>
+                        <button class="accordion">
+                            A Dualidade da morte: Lab e Wolf
+                        </button>
+                        <div class="content">
+                            <p>
+                                Kindred é composto por duas entidades distintas:
+                                Lamb (a Ovelha) e Wolf (o Lobo). Lamb representa
+                                uma morte pacífica, oferecendo um fim rápido e
+                                indolor com suas flechas para aqueles que
+                                aceitam seu destino. Já Wolf personifica uma
+                                morte violenta, perseguindo e devorando os que
+                                tentam fugir do fim inevitável. Essa dualidade
+                                reflete as escolhas que os mortais enfrentam
+                                diante da morte, tornando Kindred uma
+                                representação única do conceito de mortalidade
+                                em Runeterra.
+                            </p>
+                        </div>
                     </li>
                     <li class="curiosidade">
-                        <h3>Origem Mítica: O Homem Cinzento</h3>
-                        <p>
-                            Segundo lendas de Runeterra, Kindred já foi uma
-                            única entidade conhecida como o "Homem Cinzento",
-                            uma figura solitária associada à morte. Para acabar
-                            com sua solidão, ele se dividiu em duas partes: Lamb
-                            (a razão) e Wolf (o instinto). Essa história é
-                            reforçada por interações com outros campeões, como
-                            Fiddlesticks, que se refere a Kindred como o "Homem
-                            Cinzento".
-                        </p>
+                        <button class="accordion">
+                            Origem Mítica: O Homem Cinzento
+                        </button>
+                        <div class="content">
+                            <p>
+                                Segundo lendas de Runeterra, Kindred já foi uma
+                                única entidade conhecida como o "Homem
+                                Cinzento", uma figura solitária associada à
+                                morte. Para acabar com sua solidão, ele se
+                                dividiu em duas partes: Lamb (a razão) e Wolf (o
+                                instinto). Essa história é reforçada por
+                                interações com outros campeões, como
+                                Fiddlesticks, que se refere a Kindred como o
+                                "Homem Cinzento".
+                            </p>
+                        </div>
                     </li>
                     <li class="curiosidade">
-                        <h3>Mecânica de Caça Única</h3>
-                        <p>
-                            No jogo, Kindred possui um sistema de marcas de caça
-                            (Mark of the Kindred). Lamb pode marcar campeões
-                            inimigos para caçar, enquanto Wolf marca monstros da
-                            selva. Abater os alvos marcados concede buffs
-                            permanentes, aumentando o alcance de ataque e o
-                            poder de Kindred. Essa mecânica incentiva jogadores
-                            a adotarem um estilo de jogo agressivo e
-                            estratégico, combinando com o tema de caçadores
-                            eternos.
-                        </p>
+                        <button class="accordion">
+                            Mecânica de Caça Única
+                        </button>
+                        <div class="content">
+                            <p>
+                                No jogo, Kindred possui um sistema de marcas de
+                                caça (Mark of the Kindred). Lamb pode marcar
+                                campeões inimigos para caçar, enquanto Wolf
+                                marca monstros da selva. Abater os alvos
+                                marcados concede buffs permanentes, aumentando o
+                                alcance de ataque e o poder de Kindred. Essa
+                                mecânica incentiva jogadores a adotarem um
+                                estilo de jogo agressivo e estratégico,
+                                combinando com o tema de caçadores eternos.
+                            </p>
+                        </div>
                     </li>
                     <li class="curiosidade">
-                        <h3>Conexões com Outras Representações da Morte</h3>
-                        <p>
-                            Kindred não é a única personificação da morte em
-                            Runeterra. Eles têm ligações com:
-                        </p>
-                        <ul class="sub-list">
-                            <li>
-                                Mask Mother: Uma entidade que, segundo lendas,
-                                criou Kindred. Lamb e Wolf a chamam de "mãe" .
-                            </li>
-                            <li>
-                                Etherfiend: Um ser que surgirá quando Kindred
-                                for esquecido, sugerindo que a morte pode
-                                assumir novas formas conforme as crenças mudam
-                            </li>
-                            <li>
-                                Karthus: O campeão necromante que já trabalhou
-                                com os "tally-men" (servos de Kindred),
-                                mostrando como diferentes cultos da morte
-                                interagem
-                            </li>
-                        </ul>
+                        <button class="accordion">
+                            Conexões com Outras Representações da Morte
+                        </button>
+                        <div class="content">
+                            <p>
+                                Kindred não é a única personificação da morte em
+                                Runeterra. Eles têm ligações com:
+                            </p>
+                            <ul class="sub-list">
+                                <li>
+                                    Mask Mother: Uma entidade que, segundo
+                                    lendas, criou Kindred. Lamb e Wolf a chamam
+                                    de "mãe" .
+                                </li>
+                                <li>
+                                    Etherfiend: Um ser que surgirá quando
+                                    Kindred for esquecido, sugerindo que a morte
+                                    pode assumir novas formas conforme as
+                                    crenças mudam
+                                </li>
+                                <li>
+                                    Karthus: O campeão necromante que já
+                                    trabalhou com os "tally-men" (servos de
+                                    Kindred), mostrando como diferentes cultos
+                                    da morte interagem
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                     <li class="curiosidade">
-                        <h3>A Influência Cultural de Kindred em Runeterra</h3>
-                        <p>
-                            Kindred não é apenas uma personificação da morte no
-                            universo de League of Legends – eles são uma parte
-                            viva (ou melhor, morta) da cultura de vários povos
-                            de Runeterra, com interpretações diferentes
-                            dependendo da região:
-                        </p>
-                        <ul class="sub-list">
-                            <li>
-                                Ionia: Kindred é visto como uma força
-                                equilibradora, representando a harmonia entre a
-                                vida e a morte. Os habitantes de Ionia acreditam
-                                que aceitar a morte é essencial para o ciclo da
-                                vida.
-                            </li>
-                            <li>
-                                Demacia: Kindred é visto com desconfiança, já
-                                que a sociedade valoriza a vida e a justiça.
-                                Eles acreditam que Kindred pode ser uma força
-                                destrutiva se não for controlada.
-                            </li>
-                            <li>
-                                Noxus: Em Noxus, o Lobo é mais celebrado do que
-                                a Ovelha, pois os noxianos admiram a violência
-                                implacável da morte em batalha. Dizem que
-                                generais condenados "ouvem o uivo de Lobo" antes
-                                de cair.
-                            </li>
-                        </ul>
+                        <button class="accordion">
+                            A Influência Cultural de Kindred em Runeterra
+                        </button>
+                        <div class="content">
+                            <p>
+                                Kindred não é apenas uma personificação da morte
+                                no universo de League of Legends – eles são uma
+                                parte viva (ou melhor, morta) da cultura de
+                                vários povos de Runeterra, com interpretações
+                                diferentes dependendo da região:
+                            </p>
+                            <ul class="sub-list">
+                                <li>
+                                    Ionia: Kindred é visto como uma força
+                                    equilibradora, representando a harmonia
+                                    entre a vida e a morte. Os habitantes de
+                                    Ionia acreditam que aceitar a morte é
+                                    essencial para o ciclo da vida.
+                                </li>
+                                <li>
+                                    Demacia: Kindred é visto com desconfiança,
+                                    já que a sociedade valoriza a vida e a
+                                    justiça. Eles acreditam que Kindred pode ser
+                                    uma força destrutiva se não for controlada.
+                                </li>
+                                <li>
+                                    Noxus: Em Noxus, o Lobo é mais celebrado do
+                                    que a Ovelha, pois os noxianos admiram a
+                                    violência implacável da morte em batalha.
+                                    Dizem que generais condenados "ouvem o uivo
+                                    de Lobo" antes de cair.
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </section>
@@ -479,9 +507,7 @@
                     <h3>Links Relacionados</h3>
                     <ul class="links">
                         <li>
-                            <a
-                                href="#inicio"
-                                aria-label="Topo da pagina"
+                            <a href="#inicio" aria-label="Topo da pagina"
                                 >Inicio</a
                             >
                         </li>
@@ -548,5 +574,6 @@
                 </div>
             </div>
         </footer>
+        <button class="back" aria-label="Voltar ao topo">↑</button>
     </body>
 </html>

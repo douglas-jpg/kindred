@@ -460,6 +460,99 @@ figure {
     }
 }
 
+.back {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: none;
+    padding: 10px 15px;
+    background-color: var(--color-text);
+    color: var(--color-primary);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 1000;
+    transition: var(--transition-default);
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.accordion {
+    background-color: var(--color-primary);
+    color: var(--color-accent);
+    cursor: pointer;
+    padding: var(--spacing-base);
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: var(--spacing-md);
+    font-family: var(--font-cinzel);
+    text-transform: uppercase;
+    transition: var(--transition-default);
+
+    &:hover {
+        color: var(--color-text);
+    }
+}
+
+.content {
+    display: none;
+    padding: var(--spacing-base);
+    background-color: var(--color-background-secondary);
+}
+
+.btn-hamburger {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--color-text);
+    cursor: pointer;
+    font-size: 24px;
+    transition: var(--transition-default);
+
+    &:hover {
+        color: var(--color-accent);
+        transform: scale(1.1);
+    }
+}
+
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 3000;
+}
+
+.lightbox.active {
+    display: flex;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    border: 3px solid var(--color-accent);
+}
+
+.scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3px;
+    background: var(--color-accent);
+    z-index: 4000;
+}
+
 @media (max-width: 1024px) {
     .hero {
         width: 70%;
@@ -472,6 +565,13 @@ figure {
 @media (max-width: 768px) {
     .nav-list {
         display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        background-color: var(--color-primary);
+        padding: var(--spacing-base);
+        box-shadow: var(--shadow-default);
     }
 
     .hero {
@@ -499,6 +599,25 @@ figure {
         padding: var(--spacing-lg);
     }
     nav {
-        padding: var(--spacing-base) var(--spacing-lg);
+        padding: 10px var(--spacing-base);
+    }
+
+    .btn-hamburger {
+        display: block;
+    }
+
+    .nav-list.open {
+        display: flex;
+    }
+
+    .item-nav {
+        width: 100%;
+        text-align: center;
+        padding: var(--spacing-sm) 0;
+    }
+
+    .item-nav a {
+        display: block;
+        padding: var(--spacing-base);
     }
 }
