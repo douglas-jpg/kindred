@@ -40,14 +40,14 @@
 
     --spacing-unit: 1rem; /* 16px */
     
-    --spacing-xxs: calc(var(--spacing-unit) * 0.25);
-    --spacing-xs: calc(var(--spacing-unit) * 0.5);
-    --spacing-sm: calc(var(--spacing-unit) * 0.75);
-    --spacing-md: calc(var(--spacing-unit));
-    --spacing-lg: calc(var(--spacing-unit) * 1.5);
-    --spacing-xl: calc(var(--spacing-unit) * 2);
-    --spacing-xxl: calc(var(--spacing-unit) * 3);
-    --spacing-xxxl: calc(var(--spacing-unit) * 4);
+    --spacing-xxs: calc(var(--spacing-unit) * 0.25); /* 4px */
+    --spacing-xs: calc(var(--spacing-unit) * 0.5); /* 8px */
+    --spacing-sm: calc(var(--spacing-unit) * 0.75); /* 12px */
+    --spacing-md: calc(var(--spacing-unit)); 
+    --spacing-lg: calc(var(--spacing-unit) * 1.5); /* 16px */
+    --spacing-xl: calc(var(--spacing-unit) * 2); /* 24px */
+    --spacing-xxl: calc(var(--spacing-unit) * 3); /* 32px */
+    --spacing-xxxl: calc(var(--spacing-unit) * 4); /* 64px */
     
 
 
@@ -80,13 +80,6 @@
     --animation-scale: scale var(--transition-duration-normal) var(--transition-timing);
     
 
-
-    --max-width-xs: 320px;
-    --max-width-sm: 540px;
-    --max-width-md: 720px;
-    --max-width-lg: 960px;
-    --max-width-xl: 1140px;
-    --max-width-xxl: 1320px;
 
     --z-index-dropdown: 100;
     --z-index-sticky: 200;
