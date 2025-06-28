@@ -1,0 +1,46 @@
+{
+    "name": "kindred-server",
+    "version": "1.0.0",
+    "description": "A personal portfolio inspired by Kindred from League of Legends, developed for the Web Software Development course in the Computer Science undergraduate program.",
+    "keywords": [
+        "kindred",
+        "league-of-legends",
+        "champion",
+        "lamb",
+        "wolf",
+        "portfolio",
+        "backend",
+        "api"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/douglas-jpg/kindred"
+    },
+    "license": "MIT",
+    "author": "douglas lima",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon --watch index.js --exec",
+        "db": "json-server src/data/db.json --host localhost --port 3000 --watch",
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^17.0.0",
+        "express": "^5.1.0",
+        "json-server": "^1.0.0-beta.3"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.30.0",
+        "@eslint/json": "^0.12.0",
+        "eslint": "^9.30.0",
+        "globals": "^16.2.0",
+        "nodemon": "^3.1.10"
+    },
+    "bugs": {
+        "url": "https://github.com/douglas-jpg/kindred/issues"
+    },
+    "homepage": "https://github.com/douglas-jpg/kindred#readme"
+}
