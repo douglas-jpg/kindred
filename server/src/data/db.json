@@ -1,1 +1,44 @@
-{}
+[
+  {
+    "id": 1,
+    "author": "Kindreds",
+    "text": "Muito Obrigado pela homenagem!",
+    "like": 510,
+    "deslike": 6
+  },
+  {
+    "id": 2,
+    "author": "Mãe",
+    "text": "Otimo site parabens",
+    "like": 169,
+    "deslike": 5
+  },
+  {
+    "id": 3,
+    "author": "Zezinho",
+    "text": "Muito massa seu site Douglas Merece um 10 da valeria!!!",
+    "like": 165430,
+    "deslike": 3
+  },
+  {
+    "id": 4,
+    "author": "Hater",
+    "text": "Meu deus que site feito",
+    "like": 10,
+    "deslike": 516
+  },
+  {
+    "id": 5,
+    "author": "Entusiasta Kindred",
+    "text": "Adorei as infos sobre os Kindreds, mas senti falta de uma seção com exemplos práticos 😄",
+    "like": 52,
+    "deslike": 4
+  },
+  {
+    "id": 6,
+    "author": "evelyn",
+    "text": "nossa que pagina linda parabens amigo",
+    "like": 15,
+    "deslike": 1
+  }
+]
