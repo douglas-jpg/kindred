@@ -39,7 +39,8 @@ kindred/
 
 ## 🏗️ Arquitetura de Software
 
-> **[Insira aqui uma imagem da arquitetura do sistema]**
+> ![Arquitetura](https://github.com/user-attachments/assets/8e23dcfe-b579-4335-913c-83f0a94b60d9)
+
 
 - **Frontend:** consumo de API, responsivo, efeitos visuais e galeria.
 - **Backend:** API RESTful, persistência em arquivo JSON, arquitetura em camadas (Controller, Service, Repository), CORS liberado para o frontend.
