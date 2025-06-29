@@ -80,7 +80,3 @@ cd client
 npm run dev
 # Frontend em http://localhost:5173
 ```
----
-
-## 📄 Licença
-MIT
