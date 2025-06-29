@@ -49,6 +49,9 @@
     --spacing-xxl: calc(var(--spacing-unit) * 3); /* 32px */
     --spacing-xxxl: calc(var(--spacing-unit) * 4); /* 64px */
     
+    --letter-spacing-base: 0.1rem;
+    --letter-spacing-lg: 0.2rem;
+    --letter-spacing-xl: 0.3rem;
 
 
     --border-default: 2px solid var(--color-accent);
