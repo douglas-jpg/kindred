@@ -41,32 +41,622 @@
         <link rel="stylesheet" href="./src/styles/styles.css" />
 
         <!-- Scripts -->
-        <script src="src/main.js" defer></script>
+        <script type="module" src="src/main.js" defer></script>
     </head>
     <body>
         <nav>
             <ul class="nav-list">
                 <li class="nav-item active">
-                    <a href="#">Inicio</a>
+                    <a href="#inicio">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Habilidades</a>
+                    <a href="#habilidades">Habilidades</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Informações</a>
+                    <a href="#curiosidades">Curiosidades</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Galeria</a>
+                    <a href="#galeria">Galeria</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Comentarios</a>
+                    <a href="#contos">contos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#comentarios">Comentarios</a>
                 </li>
             </ul>
             <button aria-label="Abrir menu" class="menu">
                 <i data-lucide="menu"></i>
             </button>
         </nav>
+        <header id="inicio">
+            <div class="hero">
+                <h1>Kindred</h1>
+                <h2>Os Caçadores Eternos</h2>
+                <p>
+                    Distintos, mas nunca separados, os Kindred representam as
+                    essências gêmeas da morte. O arco da Ovelha propicia uma
+                    rápida transição do mundo mortal para aqueles que aceitam
+                    seu destino. O Lobo caça aqueles que fogem de seu fim,
+                    entregando-lhes a violência derradeira de suas presas
+                    esmagadoras. Embora diferentes interpretações sobre a
+                    natureza dos Kindred circulem por toda Runeterra, todo
+                    mortal deve escolher a verdadeira face de sua morte.
+                </p>
+            </div>
+            <div class="status">
+                <div class="content-status">
+                    <img
+                        src="./src/assets/icons/role.svg"
+                        alt="icone de atirador"
+                    />
+                    <p>Função</p>
+                    <p class="info">Atirador</p>
+                </div>
+                <div class="content-status">
+                    <img
+                        src="./src/assets/icons/dificult.svg"
+                        alt="icone de dificuldade media"
+                    />
+                    <p>Dificuldade</p>
+                    <p class="info">Média</p>
+                </div>
+                <div class="content-status">
+                    <img
+                        src="./src/assets/icons/runeterra.svg"
+                        alt="icone da regão de runeterra"
+                    />
+                    <p>Região</p>
+                    <p class="info">Runeterra</p>
+                </div>
+                <div class="content-status">
+                    <img
+                        src="./src/assets/icons/jungle.svg"
+                        alt="icone da rota da selva"
+                    />
+                    <p>Rota</p>
+                    <p class="info">Caçador</p>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="habilidades" class="habilidades-section">
+                <h2 class="subtitle">Habilidades do Campeão</h2>
+                <div class="habilidades">
+                    <article class="skils">
+                        <img
+                            src="./src/assets/images/skills/habilidade-passiva.jpg"
+                            alt="marca familiar"
+                        />
+                        <h3>Marca da Kindred</h3>
+                        <p class="controle">Passiva</p>
+                        <p class="descricao">
+                            Os Kindred marcam alvos para Caçar. Concluir uma
+                            Caçada fortalece permanentemente as habilidades
+                            básicas deles. A cada 4 caçadas concluídas, o
+                            Alcance de Ataque também aumenta.
+                        </p>
+                    </article>
+                    <article class="skils">
+                        <img
+                            src="./src/assets/images/skills/habilidade-Q.jpg"
+                            alt="dança de flechas"
+                        />
+                        <h3>Dança de Flechas</h3>
+                        <p class="controle">Q</p>
+                        <p class="descricao">
+                            Os Kindred rolam e disparam até três flechas em
+                            alvos próximos.
+                        </p>
+                    </article>
+                    <article class="skils">
+                        <img
+                            src="./src/assets/images/skills/habilidade-W.jpg"
+                            alt="frenesi do lobo"
+                        />
+                        <h3>Frenesi do Lobo</h3>
+                        <p class="controle">W</p>
+                        <p class="descricao">
+                            O Lobo se enraivece e ataca inimigos à sua volta. A
+                            Ovelha ganha acúmulos passivamente ao se mover e
+                            atacar. Quando totalmente carregado, o próximo
+                            ataque da Ovelha recupera Vida..
+                        </p>
+                    </article>
+                    <article class="skils">
+                        <img
+                            src="./src/assets/images/skills/habilidade-E.jpg"
+                            alt="pesar crescente"
+                        />
+                        <h3>Pesar Crescente</h3>
+                        <p class="controle">E</p>
+                        <p class="descricao">
+                            A Ovelha faz um disparo cuidadoso, reduzindo a
+                            velocidade de seu alvo. Se a Ovelha atacar o alvo
+                            mais duas vezes, seu próximo ataque fará com que o
+                            Lobo salte no inimigo, golpeando-o e causando muito
+                            dano.
+                        </p>
+                    </article>
+                    <article class="skils">
+                        <img
+                            src="./src/assets/images/skills/habilidade-R.jpg"
+                            alt="refúgio da ovelha"
+                        />
+                        <h3>Refúgio da Ovelha</h3>
+                        <p class="controle">R</p>
+                        <p class="descricao">
+                            A Ovelha concede refúgio contra a morte para todos
+                            os seres vivos em uma área. Até que seu efeito
+                            acabe, nada pode morrer. No fim de sua duração, as
+                            unidades são curadas.
+                        </p>
+                    </article>
+                </div>
+            </section>
+            <section id="curiosidades" class="curiosidades-section">
+                <h2 class="subtitle">Curiosidades</h2>
+                <ul>
+                    <li class="curiosidade">
+                        <button class="accordion">
+                            A Dualidade da morte: Lab e Wolf
+                        </button>
+                        <div class="content">
+                            <p>
+                                Kindred é composto por duas entidades distintas:
+                                Lamb (a Ovelha) e Wolf (o Lobo). Lamb representa
+                                uma morte pacífica, oferecendo um fim rápido e
+                                indolor com suas flechas para aqueles que
+                                aceitam seu destino. Já Wolf personifica uma
+                                morte violenta, perseguindo e devorando os que
+                                tentam fugir do fim inevitável. Essa dualidade
+                                reflete as escolhas que os mortais enfrentam
+                                diante da morte, tornando Kindred uma
+                                representação única do conceito de mortalidade
+                                em Runeterra.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="curiosidade">
+                        <button class="accordion">
+                            Origem Mítica: O Homem Cinzento
+                        </button>
+                        <div class="content">
+                            <p>
+                                Segundo lendas de Runeterra, Kindred já foi uma
+                                única entidade conhecida como o "Homem
+                                Cinzento", uma figura solitária associada à
+                                morte. Para acabar com sua solidão, ele se
+                                dividiu em duas partes: Lamb (a razão) e Wolf (o
+                                instinto). Essa história é reforçada por
+                                interações com outros campeões, como
+                                Fiddlesticks, que se refere a Kindred como o
+                                "Homem Cinzento".
+                            </p>
+                        </div>
+                    </li>
+                    <li class="curiosidade">
+                        <button class="accordion">
+                            Mecânica de Caça Única
+                        </button>
+                        <div class="content">
+                            <p>
+                                No jogo, Kindred possui um sistema de marcas de
+                                caça (Mark of the Kindred). Lamb pode marcar
+                                campeões inimigos para caçar, enquanto Wolf
+                                marca monstros da selva. Abater os alvos
+                                marcados concede buffs permanentes, aumentando o
+                                alcance de ataque e o poder de Kindred. Essa
+                                mecânica incentiva jogadores a adotarem um
+                                estilo de jogo agressivo e estratégico,
+                                combinando com o tema de caçadores eternos.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="curiosidade">
+                        <button class="accordion">
+                            Conexões com Outras Representações da Morte
+                        </button>
+                        <div class="content">
+                            <p>
+                                Kindred não é a única personificação da morte em
+                                Runeterra. Eles têm ligações com:
+                            </p>
+                            <ul class="sub-list">
+                                <li>
+                                    Mask Mother: Uma entidade que, segundo
+                                    lendas, criou Kindred. Lamb e Wolf a chamam
+                                    de "mãe" .
+                                </li>
+                                <li>
+                                    Etherfiend: Um ser que surgirá quando
+                                    Kindred for esquecido, sugerindo que a morte
+                                    pode assumir novas formas conforme as
+                                    crenças mudam
+                                </li>
+                                <li>
+                                    Karthus: O campeão necromante que já
+                                    trabalhou com os "tally-men" (servos de
+                                    Kindred), mostrando como diferentes cultos
+                                    da morte interagem
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="curiosidade">
+                        <button class="accordion">
+                            A Influência Cultural de Kindred em Runeterra
+                        </button>
+                        <div class="content">
+                            <p>
+                                Kindred não é apenas uma personificação da morte
+                                no universo de League of Legends – eles são uma
+                                parte viva (ou melhor, morta) da cultura de
+                                vários povos de Runeterra, com interpretações
+                                diferentes dependendo da região:
+                            </p>
+                            <ul class="sub-list">
+                                <li>
+                                    Ionia: Kindred é visto como uma força
+                                    equilibradora, representando a harmonia
+                                    entre a vida e a morte. Os habitantes de
+                                    Ionia acreditam que aceitar a morte é
+                                    essencial para o ciclo da vida.
+                                </li>
+                                <li>
+                                    Demacia: Kindred é visto com desconfiança,
+                                    já que a sociedade valoriza a vida e a
+                                    justiça. Eles acreditam que Kindred pode ser
+                                    uma força destrutiva se não for controlada.
+                                </li>
+                                <li>
+                                    Noxus: Em Noxus, o Lobo é mais celebrado do
+                                    que a Ovelha, pois os noxianos admiram a
+                                    violência implacável da morte em batalha.
+                                    Dizem que generais condenados "ouvem o uivo
+                                    de Lobo" antes de cair.
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section id="galeria" class="galeria-section">
+                <h2 class="subtitle">Galeria de arte</h2>
+                <div class="galeria">
+                    <h3>arte conceitual</h3>
+                    <div class="images-container">
+                        <figure>
+                            <img
+                                src="./src/assets/images/concept/concept1.jpg"
+                                alt="Exploração do recurso da ovelha"
+                                height="300"
+                            />
+                            <figcaption>
+                                Exploração do recurso da ovelha
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img
+                                src="./src/assets/images/concept/concept2.jpg"
+                                alt="conceito dos Kindred"
+                                height="300"
+                            />
+                            <figcaption>conceito dos Kindred</figcaption>
+                        </figure>
+                        <figure>
+                            <img
+                                src="./src/assets/images/concept/concept3.jpg"
+                                alt="conceito inicial dos Kindred"
+                                height="300"
+                            />
+                            <figcaption>
+                                conceito inicial dos Kindred
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img
+                                src="./src/assets/images/concept/concept4.jpg"
+                                alt="conceito dos Kindred"
+                                height="300"
+                            />
+                            <figcaption>conceito dos Kindred</figcaption>
+                        </figure>
+                        <figure>
+                            <img
+                                src="./src/assets/images/concept/concept5.jpg"
+                                alt="exploração da forma humana dos Kindred"
+                                height="300"
+                            />
+                            <figcaption>
+                                Exploração da forma humana dos Kindred
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img
+                                src="./src/assets/images/concept/concept6.jpg"
+                                alt="cabeça de Lobo dos Kindred"
+                                height="300"
+                            />
+                            <figcaption>Cabeça de Lobo dos Kindred</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="galeria">
+                    <h3>Skins</h3>
+                    <div class="images-container">
+                        <figure>
+                            <img
+                                src="./src/assets/images/skins/kindred-skin.jpg"
+                                alt="Kindred"
+                                height="300"
+                            />
+                            <figcaption>Kindred</figcaption>
+                        </figure>
+                        <figure>
+                            <img
+                                src="./src/assets/images/skins/fogo-sombrio-skin.jpg"
+                                alt="Kindred fogo sombrio"
+                                height="300"
+                            />
+                            <figcaption>Kindred fogo sombrio</figcaption>
+                        </figure>
+                        <figure>
+                            <img
+                                src="./src/assets/images/skins/supergalaticos-skin.jpg"
+                                alt="Kindred Supergaláticos"
+                                height="300"
+                            />
+                            <figcaption>Kindred Supergaláticos</figcaption>
+                        </figure>
+                        <figure>
+                            <img
+                                src="./src/assets/images/skins/florecer-espiritual-skin.jpg"
+                                alt="Kindred florescer espiritual"
+                                height="300"
+                            />
+                            <figcaption>
+                                Kindred florescer espiritual
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img
+                                src="./src/assets/images/skins/porcelana-skin.jpg"
+                                alt="Kindred de porcelana"
+                                height="300"
+                            />
+                            <figcaption>Kindred de porcelana</figcaption>
+                        </figure>
+                        <figure>
+                            <img
+                                src="./src/assets/images/skins/doguinho-e-ovelha-skin.jpg"
+                                alt="Kindred doguinho e ovelha"
+                                height="300"
+                            />
+                            <figcaption>Kindred doguinho e ovelha</figcaption>
+                        </figure>
+                        <figure>
+                            <img
+                                src="./src/assets/images/skins/drx-skin.jpg"
+                                alt="Kindred DRX"
+                                height="300"
+                            />
+                            <figcaption>Kindred DRX</figcaption>
+                        </figure>
+                        <figure>
+                            <img
+                                src="./src/assets/images/skins/porcelana-prestigio-skin.jpg"
+                                alt="Kindred de porcelana de prestigio"
+                                height="300"
+                            />
+                            <figcaption>
+                                Kindred de porcelana de prestigio
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img
+                                src="./src/assets/images/skins/escolhidos-do-lobo-skin.jpg"
+                                alt="Kindred escolhidos do lobo"
+                                height="300"
+                            />
+                            <figcaption>Kindred escolhidos do lobo</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+            <section id="contos" class="contos-section">
+                <h2 class="subtitle">Contos</h2>
+                <article class="conto">
+                    <h3>Biografia completa</h3>
+                    <p>
+                        Distintos, mas nunca separados, os Kindred representam
+                        as essências gêmeas da morte. O arco da Ovelha oferece
+                        um desprendimento rápido do mundo mortal para aqueles
+                        que aceitam seu destino. O Lobo caça aqueles que fogem
+                        de seu fim, entregando-lhes a violência derradeira de
+                        suas presas esmagadoras. Embora interpretações
+                        diferentes da natureza dos Kindred variem por toda
+                        Runeterra, todo mortal deve escolher a verdadeira face
+                        de sua morte
+                    </p>
+                    <a
+                        href="https://universe.leagueoflegends.com/pt_BR/story/champion/kindred/"
+                        target="_blank"
+                        aria-label="Biografia completa"
+                        >Ler Historia ➜</a
+                    >
+                </article>
+                <article class="conto">
+                    <h3>Floresta para as Árvores</h3>
+                    <p>
+                        A batalha caiu sobre eles como se fosse um banquete.
+                        Vidas deliciosas — tantas a acabar e tantas a se caçar!
+                        O Lobo avançou pela neve enquanto a Ovelha dançava
+                        graciosamente de gume de espada a ponta de lança; a
+                        carnificina sangrenta incapaz de manchar sua pelagem
+                        pálida.
+                    </p>
+                    <a
+                        href="https://universe.leagueoflegends.com/pt_BR/story/kindred-color-story/"
+                        target="_blank"
+                        aria-label="Floresta para as Árvores"
+                        >Ler Historia ➜</a
+                    >
+                </article>
+                <article class="conto">
+                    <h3>A peça inacabada</h3>
+                    <cite>Por Matt Dunn</cite>
+                    <p>
+                        Tarnold entendeu que a apresentação estava condenada ao
+                        fracasso quando todos os seus truques de palco se
+                        esgotaram. A ansiedade tomara conta do elenco. Talvez a
+                        culpa fosse do texto, ou das superstições que cercavam a
+                        encenação da obra inacabada de uma escriba morta, mas
+                        cada um dos atores havia sucumbido, de uma forma ou de
+                        outra, à falta de profissionalismo.
+                    </p>
+                    <a
+                        href="https://universe.leagueoflegends.com/pt_BR/story/finishing-soates/"
+                        target="_blank"
+                        aria-label="A peça inacabada"
+                        >Ler Historia ➜</a
+                    >
+                </article>
+                <article class="conto">
+                    <h3>Uma Boa Morte</h3>
+                    <p>
+                        Magga estava para morrer pela décima quarta vez. Ela
+                        mordiscou uma maçã podre — mais uma vez. Sua polpa, como
+                        sempre, a infectou com putrinumbra. A atriz fez os
+                        movimentos de cair para sua morte enquanto proferia suas
+                        palavras finais para que todos ouvissem.
+                    </p>
+                    <a
+                        href="https://universe.leagueoflegends.com/pt_BR/story/kindred-good-death-story/"
+                        target="_blank"
+                        aria-label="Uma Boa Morte"
+                        >Ler Historia ➜</a
+                    >
+                </article>
+            </section>
+            <section id="comentarios" class="comentarios-section">
+                <h2 class="subtitle">Comentários</h2>
+                <form id="comentario-form" class="comentario-form">
+                    <label for="usuario-nome">Nome de usuário</label>
+                    <input
+                        type="text"
+                        id="usuario-nome"
+                        name="usuario-nome"
+                        placeholder="Digite seu nome"
+                        required
+                    />
+                    <label for="comentario-texto">Comentário</label>
+                    <textarea
+                        id="comentario-texto"
+                        name="comentario-texto"
+                        rows="3"
+                        placeholder="Escreva seu comentário"
+                        required
+                    ></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+                <div id="comentarios-lista" class="comentarios-lista">
+                    <div class="comentario">
+                        <strong>ExemploUsuario</strong>
+                        <p>Esse projeto está incrível! Parabéns!</p>
+                        <button class="curtir">
+                            <i data-lucide="thumbs-up"></i> <span>0</span>
+                        </button>
+                        <button class="descurtir">
+                            Descurtir <span>0</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer id="footer" class="footer" role="contentinfo">
+            <div>
+                <div class="footer-section">
+                    <h3>Sobre este projeto</h3>
+                    <p>
+                        Trabalho acadêmico para a disciplina de Desenvolvimento
+                        de Software para Web do curso de Ciência da Computação.
+                    </p>
+                </div>
 
+                <div class="footer-section">
+                    <h3>Links Relacionados</h3>
+                    <ul class="links">
+                        <li>
+                            <a href="#inicio" aria-label="Topo da pagina"
+                                >Inicio</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.leagueoflegends.com/pt-br/champions/kindred/"
+                                target="_blank"
+                                aria-label="Pagina inicial sobre Kindred"
+                                >Kindred</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.leagueoflegends.com"
+                                target="_blank"
+                                aria-label="Site oficial de League of Legends"
+                                >League of Legends</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.riotgames.com"
+                                target="_blank"
+                                aria-label="Site da Riot Games"
+                                >Riot Games</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Redes Sociais</h3>
+                    <ul class="social">
+                        <li>
+                            <a
+                                href="https://www.instagram.com/dougla5_00/"
+                                target="_blank"
+                                aria-label="Meu Instagram"
+                            >
+                                <img
+                                    src="./src/assets/icons/instagram.svg"
+                                    alt="Ícone do Instagram"
+                                    width="20"
+                                    height="20"
+                                />
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/douglas-jpg"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Meu GitHub"
+                            >
+                                <img
+                                    src="./src/assets/icons/github.svg"
+                                    alt="Ícone do GitHub"
+                                    width="20"
+                                    height="20"
+                                />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <button class="back" aria-label="Voltar ao topo">↑</button>
         <script src="https://unpkg.com/lucide@latest"></script>
     </body>
 </html>
