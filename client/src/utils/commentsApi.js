@@ -4,7 +4,6 @@ const API_URL = 'http://localhost:8080/comments';
 const comentariosLista = document.getElementById('comentarios-lista');
 const comentarioForm = document.getElementById('comentario-form');
 
-// Funções de API
 export async function fetchComments() {
     const res = await axios.get(API_URL);
     return res.data;
@@ -20,7 +19,6 @@ export async function reactComment(id, type) {
     return res.data;
 }
 
-// Funções de renderização e eventos
 export async function renderComments() {
     if (!comentariosLista) return;
 
@@ -83,7 +81,6 @@ export function setupCommentReactions() {
     });
 }
 
-// Inicialização dos comentários
 export function initComments() {
     renderComments();
     setupCommentForm();

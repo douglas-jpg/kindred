@@ -1,19 +1,20 @@
-const menu = document.querySelector('.menu');
-const navList = document.querySelector('.nav-list');
-const navItems = document.querySelectorAll('.nav-item');
-const navLinks = document.querySelectorAll('.nav-item a');
+import {
+    navbar,
+    backToTop,
+    scrollProgress,
+    initLightbox,
+    accordion,
+} from './utils/effects';
 
-menu.addEventListener('click', () => {
-    navList.classList.toggle('open');
-});
+import { initComments } from './utils/commentsApi';
 
-navLinks.forEach((link) => {
-    link.addEventListener('click', (e) => {
-        navItems.forEach((item) => item.classList.remove('active'));
 
-        link.parentElement.classList.add('active');
-        navList.classList.remove('open');
-    });
-});
+initComments();
+
+navbar();
+backToTop();
+scrollProgress();
+initLightbox();
+accordion();
 
 lucide.createIcons();
