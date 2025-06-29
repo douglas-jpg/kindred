@@ -1,5 +1,6 @@
 import express from 'express';
 import cors from 'cors';
+import routes from './routes/routes.js';
 
 const app = express();
 const PORT = process.env.PORT || 8080;
@@ -8,8 +9,11 @@ const PORT = process.env.PORT || 8080;
 app.use(cors());
 app.use(express.json());
 
+// Rotas
+app.use('/comments', routes);
+
 app.get('/', (req, res) => {
-    res.send('Hello World');
+    res.send('API de Comentários');
 });
 
 export function startServer() {
